@@ -92,10 +92,10 @@ class Register extends React.Component {
                           onClick={e => e.preventDefault()}
                         >
                           <span className="btn-inner--icon mr-1">
-                            <img
+                            {/* <img
                               alt="..."
                               src={googleImg}
-                            />
+                            /> */}
                           </span>
                           <span className="btn-inner--text">Google</span>
                         </Button>

@@ -22,9 +22,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #5e72e4;
+  --blue: #FFEC67;
   --indigo: #5603ad;
-  --purple: #8965e0;
+  --purple: #FFEC67;
   --pink: #f3a4b5;
   --red: #f5365c;
   --orange: #fb6340;
@@ -34,18 +34,18 @@
   --cyan: #2bffc6;
   --white: #fff;
   --gray: #8898aa;
-  --gray-dark: #32325d;
+  --gray-dark: #BDCC94;
   --light: #ced4da;
   --lighter: #e9ecef;
-  --primary: #5e72e4;
+  --primary: #95998A;
   --secondary: #f4f5f7;
   --success: #2dce89;
   --info: #11cdef;
-  --warning: #fb6340;
+  --warning: #A9B6CC;
   --danger: #f5365c;
   --light: #adb5bd;
   --dark: #212529;
-  --default: #172b4d;
+  --default: #95998A;
   --white: #fff;
   --neutral: #fff;
   --darker: black;
@@ -77,9 +77,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #525f7f;
+  color: #FFEC67;
   text-align: left;
-  background-color: #fff; }
+  background-color: #A9B6CC; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -157,7 +157,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #233dd2;
+    color: #FFEC67;
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.5;
-  color: #32325d; }
+  color: #FFEC67; }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -1452,7 +1452,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.625rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #525f7f;
+  color: #FFEC67;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
@@ -13490,29 +13490,29 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-skew span {
       transform: skew(4deg); }
   .section-shaped .shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(150deg, #281483 15%, #d5ce6e 70%, #d3d982 94%); }
     .section-shaped .shape-primary :nth-child(1) {
       background: #53f; }
     .section-shaped .shape-primary :nth-child(2) {
-      background: #4553ff; }
+      background: #FFEC67; }
     .section-shaped .shape-primary :nth-child(3) {
-      background: #4f40ff; }
+      background: #FFEC67; }
     .section-shaped .shape-primary :nth-child(4) {
-      background: #25ddf5; }
+      background: #FFEC67; }
     .section-shaped .shape-primary :nth-child(5) {
       background: #1fa2ff; }
   .section-shaped .shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(150deg, #FFEC67 15%, #F5D95A 70%, #FFCD00 94%); }
     .section-shaped .shape-default :nth-child(1) {
-      background: #7795f8; }
+      background: #FFEC67; }
     .section-shaped .shape-default :nth-child(2) {
-      background: #7b9aff; }
+      background: #FFEC67; }
     .section-shaped .shape-default :nth-child(3) {
-      background: #6f8ff8; }
+      background: #FFEC67; }
     .section-shaped .shape-default :nth-child(4) {
       background: #76eea7; }
     .section-shaped .shape-default :nth-child(5) {
-      background: #6adaff; }
+      background: #95998A; }
   .section-shaped .shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
     .section-shaped .shape-light :nth-child(1) {
@@ -13526,15 +13526,15 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-light :nth-child(5) {
       background: shapes-light-color("span-5-bg"); }
   .section-shaped .shape-dark {
-    background: linear-gradient(150deg, #32325d 15%, #32325d 70%, #32325d 94%); }
+    background: linear-gradient(150deg, #FFEC67 15%, #F5D95A 70%, #FFCD00 94%); }
     .section-shaped .shape-dark :nth-child(1) {
-      background: #2e2e57; }
+      background: #FFEC67; }
     .section-shaped .shape-dark :nth-child(2) {
-      background: #2b2b58; }
+      background: #F5D95A; }
     .section-shaped .shape-dark :nth-child(3) {
-      background: #25254d; }
+      background: #FFCD00; }
     .section-shaped .shape-dark :nth-child(4) {
-      background: #d782d9; }
+      background: #BDCC94; }
     .section-shaped .shape-dark :nth-child(5) {
       background: #008169; }
   .section-shaped .shape-style-1 span {
@@ -13608,13 +13608,13 @@ textarea[resize="horizontal"] {
     .section-shaped .shape-style-1 span {
       height: 90px; } }
   .section-shaped .shape-style-1.shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); }
+    background: linear-gradient(150deg, #FFEC67 15%, #FFEC67 70%, #FFEC67 94%);}
   .section-shaped .shape-style-1.shape-default {
-    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); }
+    background: linear-gradient(150deg, #FFEC67 15%, #FFEC67 70%, #FFEC67 94%); }
   .section-shaped .shape-style-1.shape-light {
     background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%); }
   .section-shaped .shape-style-1.shape-dark {
-    background: linear-gradient(150deg, #32325d 15%, #32325d 70%, #32325d 94%); }
+    background: linear-gradient(150deg, #FFEC67 15%, #FFEC67 70%, #FFEC67 94%); }
   .section-shaped .shape-style-2 span {
     height: 190px; }
   .section-shaped .shape-style-2 .span-sm {
@@ -13694,7 +13694,7 @@ textarea[resize="horizontal"] {
     border-radius: 0.25rem;
     padding: .875rem;
     background: #fff;
-    box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05); }
+    box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(199, 204, 173, 0.25), 0 2px 6px rgba(45, 64, 0, 0.14), 0 10px 20px rgba(63, 64, 0, 0.05); }
   .device-ill .tablet-landscape {
     width: 512px;
     height: 352px;

@@ -51,26 +51,26 @@ class Carousel extends React.Component {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">
+                {/* <h1 className="text-white font-weight-light">
                   Bootstrap carousel
                 </h1>
                 <p className="lead text-white mt-4">
                   Argon Design System comes with four pre-built pages to help
                   you get started faster. You can change the text and images and
                   you're good to go.
-                </p>
-                <Button
+                </p> */}
+                {/* <Button
                   className="btn-white mt-4"
                   color="default"
                   href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
                 >
                   See all components
-                </Button>
+                </Button> */}
               </Col>
               <Col className="mb-lg-auto" lg="6">
-                <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
+                {/* <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
                   <UncontrolledCarousel items={items} />
-                </div>
+                </div> */}
               </Col>
             </Row>
           </Container>

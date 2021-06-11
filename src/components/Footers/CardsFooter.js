@@ -39,7 +39,7 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
+          {/* <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
@@ -62,19 +62,19 @@ class CardsFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                Authored Salam Mustafa Software Developer
                 </h3>
-                <h4 className="mb-0 font-weight-light">
+                {/* <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
-                </h4>
+                </h4> */}
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
                   href="https://twitter.com/creativetim"
@@ -84,14 +84,14 @@ class CardsFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-twitter" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/salam.mustafa.58"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -100,9 +100,9 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  My facbook
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -112,14 +112,14 @@ class CardsFooter extends React.Component {
                   <span className="btn-inner--icon">
                     <i className="fa fa-dribbble" />
                   </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
+                </Button> */}
+                {/* <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/salammustafa728"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -128,14 +128,14 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
-                  Star on Github
+                  My Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
             <hr />
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
-                <div className="copyright">
+                {/* <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
@@ -144,41 +144,41 @@ class CardsFooter extends React.Component {
                     Creative Tim
                   </a>
                   .
-                </div>
+                </div> */}
               </Col>
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
-                    <NavLink
+                    {/* <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
                       Creative Tim
-                    </NavLink>
+                    </NavLink> */}
                   </NavItem>
                   <NavItem>
-                    <NavLink
+                    {/* <NavLink
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
                       About Us
-                    </NavLink>
+                    </NavLink> */}
                   </NavItem>
                   <NavItem>
-                    <NavLink
+                    {/* <NavLink
                       href="http://blog.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
                       Blog
-                    </NavLink>
+                    </NavLink> */}
                   </NavItem>
                   <NavItem>
-                    <NavLink
+                    {/* <NavLink
                       href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
                       target="_blank"
                     >
                       MIT License
-                    </NavLink>
+                    </NavLink> */}
                   </NavItem>
                 </Nav>
               </Col>
