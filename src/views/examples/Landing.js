@@ -82,12 +82,12 @@ class Landing extends React.Component {
                     <Col lg="6">
                       <h1 className="display-3 text-white">
                         Salam Mustaf{" "}
-                        <span> Software Developer</span>
+                        <span>  Jr. Full-Stack JavaScript Web Developer </span>
                       </h1>
                       <p className="lead text-white">
-                            Sowftware Developer wth background in computer science, I have passion in codeing,
-                            now I'm taking an advanced Full-Stack Web Development Internship for ASAC, I always adding new skills 
-                            to my reporitore, Also I'm familier with a variety of progrramming languages CSS, JavaScript,HTML and Java. 
+                        Jr. Full-Stack JavaScript Web Developer with a background in computer science who have passion in coding, I had taken an advanced Full-Stack JavaScript Web Development
+                        Internship for ASAC, Also I always adding new skills to my reporitore, Also I'm familier with a variety of
+                        progrramming languages CSS, JavaScript,HTML, nodejs, Reactjs, API's  and Java.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -155,14 +155,14 @@ class Landing extends React.Component {
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                            <a href='https://github.com/Dcode-Team'> Github page</a> 
+                              <a href='https://github.com/Dcode-Team'> Github page</a>
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                            <a href='https://dcode-team.github.io/Game-Learn/creators.html'> creators page</a>
+                              <a href='https://dcode-team.github.io/Game-Learn/creators.html'> creators page</a>
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
                               <a href='https://dcode-team.github.io/Game-Learn/index.html'> Project page</a>
-                             
+
                             </Badge>
                           </div>
                           {/* <Button
@@ -186,12 +186,12 @@ class Landing extends React.Component {
                             Salmon Cookie
                           </h6>
                           <p className="description mt-3">
-                           A website for cookie shop that count the number of cookie per hour and to count
-                           the customer per hours for each loction for the shop
+                            A website for cookie shop that count the number of cookie per hour and to count
+                            the customer per hours for each loction for the shop
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                             
+
                               <a href='https://salammustafa728.github.io/cookie-stand/'> Home page</a>
                             </Badge>
                             <Badge color="success" pill className="mr-1">
@@ -224,26 +224,157 @@ class Landing extends React.Component {
                             BusMall Project
                           </h6>
                           <p className="description mt-3">
-                              A project for BusMall that display 3 items randomly anmd the user can choose favirout item 
-                              and he have a 25 choose then a chart of the # of votes for each item display and a list for the vote and the shown items
+                            A project for BusMall that display 3 items randomly anmd the user can choose favirout item
+                            and he have a 25 choose then a chart of the # of votes for each item display and a list for the vote and the shown items
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                            
+
                               <a href='https://salammustafa728.github.io/bus-mall/'> Home page</a>
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                            
+
                               <a href='https://github.com/salammustafa728/bus-mall'> Repo page</a>
                             </Badge>
-                            {/* <Badge color="warning" pill className="mr-1">
-                             
-                              <a href='https://github.com/salammustafa728/cookie-stand'> Repo page</a>
-                            </Badge> */}
+                          </div>
+
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            HornedBeast Project
+                          </h6>
+                          <p className="description mt-3">
+                            A project for Horned Beast that display all the beasts in a card with the title and a favorite
+                            icon when you press on the Image the counter for favorite will increase and a modal deeply it has
+                            the beastly image and the title, also there is a form to specific the type of the beasts depends on
+                            the horn number that it has
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+
+                              <a href='https://hournedbeaste.netlify.app/'> Home page</a>
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+
+                              <a href='https://github.com/salammustafa728/HornedShow'> Repo page</a>
+                            </Badge>
+                          </div>
+
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            City Explore Project
+                          </h6>
+                          <p className="description mt-3">
+                            A website for displaying a city with its map and the weather for 10 days and the movie that has the city name, you can search for any city you want, I used an API for displaying the weather and
+                            API for movies
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+
+                              <a href='https://city-explorer-salam.netlify.app/'> Home page</a>
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              vision
+                              <a href='https://github.com/salammustafa728/city-explorer-server'>Repo page for Backend</a>
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              success
+                              <a href='https://github.com/salammustafa728/city-explorer'> Repo page for frontend</a>
+                            </Badge>
                           </div>
                           {/* <Button
                             className="mt-4"
-                            color="warning"
+                            color="success"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+                          <h6 className="text-primary text-uppercase">
+                            Can of Books Project
+                          </h6>
+                          <p className="description mt-3">
+                            A website for displaying a book that is favored for you, you can add, update or delete the books from your profile
+                            also the page will contain all the books that you add, I used mongodb and atlas for storing the books.
+                          </p>
+                          <div>
+                            <Badge color="primary" pill className="mr-1">
+                              <a href='https://gallant-snyder-d4a1e9.netlify.app/'> Home page</a>
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/creators.html'> Repo page for Backend</a>
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/index.html'> Repo page for frontend</a>
+
+                            </Badge>
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="primary"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more <a href='https://dcode-team.github.io/Game-Learn/index.html'>  </a>
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            Potato Movies Project
+                          </h6>
+                          <p className="description mt-3">
+                            A website, where the user can search from movies then write his reveiw also the user can add
+                            them to thier list( to-watach, favorite list). it was a team work we used moviedb API to display
+                            the movies
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+
+                              <a href='https://potatomovies.netlify.app/'> Home page</a>
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              vision
+                              <a href='https://github.com/team-ciphers/ciphers-backend'>Repo page for Backend</a>
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              success
+                              <a href='https://github.com/team-ciphers/ciphers-frontend'> Repo page for frontend</a>
+                            </Badge>
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="success"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
@@ -274,21 +405,21 @@ class Landing extends React.Component {
                     </div>
                     <h3>My Background</h3>
                     <p>
-                    A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript, HTML, CSS and Java,  but I'm always adding new skills to my repertoire.
-                           Today, I’m taking an advanced internship in software development for ASAC, I'm interested to learn full stack web development. Also I interested in learning codeing. 
-                          
+                      A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript,
+                      HTML, CSS, node.js, Reactjs and Java, but I'm always adding new skills to my repertoire.
+                      I had taken an advanced internship in full-stack JavaScript web Development for ASAC.
                     </p>
-                   
+
                   </div>
                 </Col>
               </Row>
             </Container>
           </section>
-         
-        
-       
-        
-         
+
+
+
+
+
           <Download />
         </main>
         <CardsFooter />

@@ -67,7 +67,7 @@ class CardsFooter extends React.Component {
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                Authored Salam Mustafa Software Developer
+                Authored Salam Mustafa Jr. Full-Stack JavaScript Developer
                 </h3>
                 {/* <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.

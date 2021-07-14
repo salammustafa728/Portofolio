@@ -85,7 +85,7 @@ class Profile extends React.Component {
                       lg="4"
                     >
                       <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
+                        {/* <Button
                           className="mr-4"
                           color="info"
                           href="#pablo"
@@ -93,16 +93,16 @@ class Profile extends React.Component {
                           size="sm"
                         >
                           Connect
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="float-right"
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
-                        </Button>
+                         Message
+                        </Button> */}
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
@@ -112,7 +112,7 @@ class Profile extends React.Component {
                           <span className="description">Experience</span>
                         </div>
                         <div>
-                          <span className="heading">3+</span>
+                          <span className="heading">6+</span>
                           <span className="description">Projects</span>
                         </div>
                         {/* <div>
@@ -125,7 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                       Salam Mustafa{" "}
-                      <span className="font-weight-light">, 24</span>
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -133,7 +133,7 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Software Developer - Software Developer Intern LTUC-ASAC
+                      Jr. Full-Stack JavaScript Web Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
@@ -144,8 +144,8 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript, HTML, CSS and Java,  but I'm always adding new skills to my repertoire.
-                            Also I interested in learning codeing. 
+                          A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript, HTML, CSS, nodejs, Reactjs, API's and Java 
+                          but I'm always adding new skills to my repertoire. Also I interested in learning codeing. 
                           
                         </p>
                         {/* <a href="#pablo" onClick={e => e.preventDefault()}>
