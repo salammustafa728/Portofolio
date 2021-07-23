@@ -40,6 +40,7 @@ import {
 } from "reactstrap";
 import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
+import { AiFillLinkedin } from "react-icons/ai";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -195,7 +196,7 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.facebook.com/salam.mustafa.58"
@@ -210,21 +211,21 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
                       My Facebook
                     </UncontrolledTooltip>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://instagram.com/salam.mustafa96?utm_medium=copy_link"
+                      href="www.linkedin.com/in/salam-mustafa"
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fa fa-instagram" />
+                       <AiFillLinkedin />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
+                       LinkedIn
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow Me On Instagram
+                      follow me LinkedIn
                     </UncontrolledTooltip>
                   </NavItem>
                   {/* <NavItem>

@@ -46,7 +46,7 @@ import {
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
-
+import { AiFillLinkedin,AiTwotoneHeart,AiTwotoneFolderOpen } from "react-icons/ai";
 // index page sections
 import Download from "../IndexSections/Download.js";
 
@@ -100,18 +100,19 @@ class Landing extends React.Component {
                           </span>
                           <span className="btn-inner--text">My GitHub</span>
                         </Button>
-                        {/* <Button
+                        <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                          href="www.linkedin.com/in/salam-mustafa"
                         >
                           <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
+                            {/* <i className="ni ni-cloud-download-95" /> */}
+                          <AiFillLinkedin />
                           </span>
                           <span className="btn-inner--text">
-                            Download React
+                            My LinkedIn
                           </span>
-                        </Button> */}
+                        </Button>
                       </div>
                     </Col>
                   </Row>
@@ -154,12 +155,12 @@ class Landing extends React.Component {
                             An asowsome learning project for kids with interactive and attractive web pages to catch the kids eyes
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            {/* <Badge color="primary" pill className="mr-1">
                               <a href='https://github.com/Dcode-Team'> Github page</a>
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            </Badge> */}
+                            {/* <Badge color="primary" pill className="mr-1">
                               <a href='https://dcode-team.github.io/Game-Learn/creators.html'> creators page</a>
-                            </Badge>
+                            </Badge> */}
                             <Badge color="primary" pill className="mr-1">
                               <a href='https://dcode-team.github.io/Game-Learn/index.html'> Project page</a>
 
@@ -194,14 +195,14 @@ class Landing extends React.Component {
 
                               <a href='https://salammustafa728.github.io/cookie-stand/'> Home page</a>
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            {/* <Badge color="success" pill className="mr-1">
                               vision
                               <a href='https://salammustafa728.github.io/cookie-stand/sales.html'> Sales page</a>
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            </Badge> */}
+                            {/* <Badge color="success" pill className="mr-1">
                               success
                               <a href='https://github.com/salammustafa728/cookie-stand'> Repo page</a>
-                            </Badge>
+                            </Badge> */}
                           </div>
                           {/* <Button
                             className="mt-4"
@@ -232,10 +233,10 @@ class Landing extends React.Component {
 
                               <a href='https://salammustafa728.github.io/bus-mall/'> Home page</a>
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            {/* <Badge color="warning" pill className="mr-1">
 
                               <a href='https://github.com/salammustafa728/bus-mall'> Repo page</a>
-                            </Badge>
+                            </Badge> */}
                           </div>
 
                         </CardBody>
@@ -257,14 +258,14 @@ class Landing extends React.Component {
                             the horn number that it has
                           </p>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
+                            {/* <Badge color="warning" pill className="mr-1">
 
                               <a href='https://hournedbeaste.netlify.app/'> Home page</a>
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
 
                               <a href='https://github.com/salammustafa728/HornedShow'> Repo page</a>
-                            </Badge>
+                            </Badge> */}
                           </div>
 
                         </CardBody>
@@ -288,23 +289,9 @@ class Landing extends React.Component {
 
                               <a href='https://city-explorer-salam.netlify.app/'> Home page</a>
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                              <a href='https://github.com/salammustafa728/city-explorer-server'>Repo page for Backend</a>
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                              <a href='https://github.com/salammustafa728/city-explorer'> Repo page for frontend</a>
-                            </Badge>
+                           
                           </div>
-                          {/* <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button> */}
+                         
                         </CardBody>
                       </Card>
                     </Col>
@@ -325,13 +312,13 @@ class Landing extends React.Component {
                             <Badge color="primary" pill className="mr-1">
                               <a href='https://gallant-snyder-d4a1e9.netlify.app/'> Home page</a>
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            {/* <Badge color="primary" pill className="mr-1">
                               <a href='https://dcode-team.github.io/Game-Learn/creators.html'> Repo page for Backend</a>
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
                               <a href='https://dcode-team.github.io/Game-Learn/index.html'> Repo page for frontend</a>
 
-                            </Badge>
+                            </Badge> */}
                           </div>
                           {/* <Button
                             className="mt-4"
@@ -363,14 +350,14 @@ class Landing extends React.Component {
 
                               <a href='https://potatomovies.netlify.app/'> Home page</a>
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            {/* <Badge color="success" pill className="mr-1">
                               vision
                               <a href='https://github.com/team-ciphers/ciphers-backend'>Repo page for Backend</a>
                             </Badge>
                             <Badge color="success" pill className="mr-1">
                               success
                               <a href='https://github.com/team-ciphers/ciphers-frontend'> Repo page for frontend</a>
-                            </Badge>
+                            </Badge> */}
                           </div>
                           {/* <Button
                             className="mt-4"
@@ -380,6 +367,30 @@ class Landing extends React.Component {
                           >
                             Learn more
                           </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            Drinks Project
+                          </h6>
+                          <p className="description mt-3">
+                            A website for displaying a Type of drinks you can add each drink to your favorite, in your favorite
+                            page you can delete the drink or edit it name.
+                          </p>
+                          <div>
+                            <Badge color="success" pill className="mr-1">
+
+                              <a href='https://drinkss.netlify.app/'> Home page</a>
+                            </Badge>
+                           
+                          </div>
+                         
                         </CardBody>
                       </Card>
                     </Col>
@@ -401,25 +412,33 @@ class Landing extends React.Component {
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
+                      {/* <i className="ni ni-settings-gear-65" /> */}
+                      <AiTwotoneFolderOpen/>
                     </div>
-                    <h3>My Background</h3>
+                    <h3>My CSS Works</h3>
                     <p>
-                      A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript,
-                      HTML, CSS, node.js, Reactjs and Java, but I'm always adding new skills to my repertoire.
-                      I had taken an advanced internship in full-stack JavaScript web Development for ASAC.
+                     Some of my pure css works
                     </p>
-
+                          <div>
+                            <div>
+                            <AiTwotoneHeart/><p>Choclate Pizza Design <a href='https://salammustafa728.github.io/ChocolatePizza301/'>
+                          click here</a></p>
+                            </div>
+                            <div>
+                            <AiTwotoneHeart/><p>Virtual Design <a href='https://salammustafa728.github.io/wirefame-exercise/'>click here</a></p>
+                            </div>
+                            <div>
+                            <AiTwotoneHeart/><p> Design <a href='https://salammustafa728.github.io/testwebpage/'>click here</a></p>
+                            </div>
+                          </div>
                   </div>
                 </Col>
               </Row>
             </Container>
           </section>
-
-
-
-
-
+          <div style={{margin:'20px'}}>
+            <p>If you want to know more about me <a href='https://salammustafa728.github.io/AboutMe/'>click here</a></p>
+          </div>
           <Download />
         </main>
         <CardsFooter />

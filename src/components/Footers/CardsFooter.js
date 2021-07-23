@@ -33,6 +33,7 @@ import {
 } from "reactstrap";
 import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
+import { AiFillLinkedin } from "react-icons/ai";
 
 class CardsFooter extends React.Component {
   render() {
@@ -91,16 +92,16 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/salam.mustafa.58"
+                  href="www.linkedin.com/in/salam-mustafa"
                   id="tooltip837440414"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-facebook-square" />
+                  <AiFillLinkedin />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  My facbook
+                  My LinkedIn
                 </UncontrolledTooltip>
                 {/* <Button
                   className="btn-icon-only rounded-circle ml-1"

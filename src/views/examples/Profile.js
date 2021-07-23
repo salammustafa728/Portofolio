@@ -112,7 +112,7 @@ class Profile extends React.Component {
                           <span className="description">Experience</span>
                         </div>
                         <div>
-                          <span className="heading">6+</span>
+                          <span className="heading">7+</span>
                           <span className="description">Projects</span>
                         </div>
                         {/* <div>
