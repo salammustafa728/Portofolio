@@ -18,7 +18,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-import promo1 from "assets/img/theme/welc2.jpg";
+import promo1 from "assets/img/theme/sa.png";
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
@@ -258,11 +258,11 @@ class Landing extends React.Component {
                             the horn number that it has
                           </p>
                           <div>
-                            {/* <Badge color="warning" pill className="mr-1">
+                            <Badge color="warning" pill className="mr-1">
 
                               <a href='https://hournedbeaste.netlify.app/'> Home page</a>
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            {/* <Badge color="warning" pill className="mr-1">
 
                               <a href='https://github.com/salammustafa728/HornedShow'> Repo page</a>
                             </Badge> */}
@@ -425,10 +425,10 @@ class Landing extends React.Component {
                           click here</a></p>
                             </div>
                             <div>
-                            <AiTwotoneHeart/><p>Virtual Design <a href='https://salammustafa728.github.io/wirefame-exercise/'>click here</a></p>
+                            <AiTwotoneHeart/><p>Grid Template Design <a href='https://salammustafa728.github.io/wirefame-exercise/'>click here</a></p>
                             </div>
                             <div>
-                            <AiTwotoneHeart/><p> Design <a href='https://salammustafa728.github.io/testwebpage/'>click here</a></p>
+                            <AiTwotoneHeart/><p>Vacation Design <a href='https://salammustafa728.github.io/testwebpage/'>click here</a></p>
                             </div>
                           </div>
                   </div>
