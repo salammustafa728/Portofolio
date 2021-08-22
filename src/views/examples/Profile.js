@@ -144,9 +144,9 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          A passionate programmer, I’m familiar with a variety of programming languages, including JavaScript, HTML, CSS, nodejs, Reactjs, API's and Java 
-                          but I'm always adding new skills to my repertoire. Also I interested in learning codeing. 
-                          
+                        Passionate Web Developer with demonstrated history of working in the web development industry, 
+                        skilled in HTML, CSS, JavaScript, NodeJS, ReactJs and Java. Graduated from Al-Hussein Bin Talal University.                          
+                        I'm always adding new skills to my repertoire. Also, I interested in learning coding. 
                         </p>
                         {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

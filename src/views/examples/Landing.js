@@ -85,9 +85,8 @@ class Landing extends React.Component {
                         <span>  Jr. Full-Stack JavaScript Web Developer </span>
                       </h1>
                       <p className="lead text-white">
-                        Jr. Full-Stack JavaScript Web Developer with a background in computer science who have passion in coding, I had taken an advanced Full-Stack JavaScript Web Development
-                        Internship for ASAC, Also I always adding new skills to my reporitore, Also I'm familier with a variety of
-                        progrramming languages CSS, JavaScript,HTML, nodejs, Reactjs, API's  and Java.
+                      Jr. Full-Stack JavaScript Web Developer with a background in computer science, familiar with a
+                      variety of programming languages CSS, JavaScript, HTML, node.js, Reactjs and Java.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -152,8 +151,7 @@ class Landing extends React.Component {
                             Game-Learn Project
                           </h6>
                           <p className="description mt-3">
-                            An asowsome learning project for kids with interactive and attractive web pages to catch the kids eyes
-                          </p>
+                          An asowsome learning project for kids with interactive and attractive web pages to catch the kids' eyes                          </p>
                           <div>
                             {/* <Badge color="primary" pill className="mr-1">
                               <a href='https://github.com/Dcode-Team'> Github page</a>
@@ -187,8 +185,8 @@ class Landing extends React.Component {
                             Salmon Cookie
                           </h6>
                           <p className="description mt-3">
-                            A website for cookie shop that count the number of cookie per hour and to count
-                            the customer per hours for each loction for the shop
+                          A website for cookie shop that count the number of cookies per hour and  counted the customer
+                          per hours for each location for each shop
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -225,8 +223,9 @@ class Landing extends React.Component {
                             BusMall Project
                           </h6>
                           <p className="description mt-3">
-                            A project for BusMall that display 3 items randomly anmd the user can choose favirout item
-                            and he have a 25 choose then a chart of the # of votes for each item display and a list for the vote and the shown items
+                          The bus mall project is a project that display 3 items randomly and the user can choose favorite 
+                          item and he has 25 choose then a chart of the # of votes for each item display, a list for 
+                          the vote and the shown items.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -252,10 +251,10 @@ class Landing extends React.Component {
                             HornedBeast Project
                           </h6>
                           <p className="description mt-3">
-                            A project for Horned Beast that display all the beasts in a card with the title and a favorite
-                            icon when you press on the Image the counter for favorite will increase and a modal deeply it has
-                            the beastly image and the title, also there is a form to specific the type of the beasts depends on
-                            the horn number that it has
+                          The horned Beast project is a project that displays each beast in a card with the title and a 
+                          favorite icon when you press on the Image the counter for favorite will increase and a modal 
+                          deeply it has the beastly image and the title, also there is a form to specific the type of
+                          the beasts depends on the horn number.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -281,8 +280,9 @@ class Landing extends React.Component {
                             City Explore Project
                           </h6>
                           <p className="description mt-3">
-                            A website for displaying a city with its map and the weather for 10 days and the movie that has the city name, you can search for any city you want, I used an API for displaying the weather and
-                            API for movies
+                          A website for displaying a city with its map and the weather for 20 days and the movie that has 
+                          the city name, you can search for any city you want, I used an API for displaying the 
+                          weather and API for movies
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -305,8 +305,9 @@ class Landing extends React.Component {
                             Can of Books Project
                           </h6>
                           <p className="description mt-3">
-                            A website for displaying a book that is favored for you, you can add, update or delete the books from your profile
-                            also the page will contain all the books that you add, I used mongodb and atlas for storing the books.
+                          A website for displaying a book that is favored for you, you can add, update or delete the books 
+                          from your profile also the page will contain all the books that you add, I used mongodb and 
+                          atlas for storing the books. And Auth0 for login.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -341,9 +342,9 @@ class Landing extends React.Component {
                             Potato Movies Project
                           </h6>
                           <p className="description mt-3">
-                            A website, where the user can search from movies then write his reveiw also the user can add
-                            them to thier list( to-watach, favorite list). it was a team work we used moviedb API to display
-                            the movies
+                          A website, where the user can search for movies, then write his review also the user can add them 
+                          to their list (to-watch, favorite list). It was a team work we used the moviedb API to display
+                          the movies and Auth0 for login/logout.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -380,8 +381,8 @@ class Landing extends React.Component {
                             Drinks Project
                           </h6>
                           <p className="description mt-3">
-                            A website for displaying a Type of drinks you can add each drink to your favorite, in your favorite
-                            page you can delete the drink or edit it name.
+                          A website for displaying a Type of drinks you can add each drink to your favorite. In your favorite 
+                          page you can delete the drink or edit its name.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -394,7 +395,34 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-primary text-uppercase">
+                           Covid-19 Cases Project
+                          </h6>
+                          <p className="description mt-3">
+                          A website for displaying a covid-19 cases from API and display each country in a card, you can 
+                          sort the countries in ascending or descending order, also search for specific countries on 
+                          the page, I used pagination to organize the countries. Also, you can add the countries to 
+                          local storage and clear the storage.
+                          </p>
+                          <div>
+                            <Badge color="primary" pill className="mr-1">
+
+                              <a href='https://salam-covid19.netlify.app/'> Home page</a>
+                            </Badge>
+                           
+                          </div>
+                         
+                        </CardBody>
+                      </Card>
+                    </Col>
                   </Row>
+                 
                 </Col>
               </Row>
             </Container>
