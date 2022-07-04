@@ -588,7 +588,7 @@ class Landing extends React.Component {
                      <div className="icon icon-shape icon-shape-primary rounded-circle mb-4 iconMe">
                             <i className="fa fa-address-card" />
                           </div>
-                  <p className="heading">
+                  <p className="heading1">
                       Hello there, If you want to know more about me
 
                       {/* <a className="linkAboutme" href="https://salammustafa728.github.io/AboutMe/">
