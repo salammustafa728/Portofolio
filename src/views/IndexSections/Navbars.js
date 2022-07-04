@@ -34,7 +34,7 @@ import {
   Row,
   Col
 } from "reactstrap";
-import argonReact from "assets/img/brand/argon-react.png";
+// import argonReact from "assets/img/brand/argon-react.png";
 
 class Navbars extends React.Component {
   render() {
@@ -59,14 +59,14 @@ class Navbars extends React.Component {
               <UncontrolledCollapse navbar toggler="#navbar-default">
                 <div className="navbar-collapse-header">
                   <Row>
-                    <Col className="collapse-brand" xs="6">
+                    {/* <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
                           alt="..."
                           src={argonReact}
                         />
                       </Link>
-                    </Col>
+                    </Col> */}
                     <Col className="collapse-close" xs="6">
                       <button className="navbar-toggler" id="navbar-default">
                         <span />

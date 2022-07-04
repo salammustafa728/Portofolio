@@ -34,7 +34,7 @@ import {
   Row,
   Col
 } from "reactstrap";
-import argonReact from "assets/img/brand/argon-react.png";
+// import argonReact from "assets/img/brand/argon-react.png";
 
 class Menus extends React.Component {
   render() {
@@ -65,14 +65,14 @@ class Menus extends React.Component {
                     <UncontrolledCollapse navbar toggler="#nav-inner-primary">
                       <div className="navbar-collapse-header">
                         <Row>
-                          <Col className="collapse-brand" xs="6">
+                          {/* <Col className="collapse-brand" xs="6">
                             <Link to="/">
                               <img
                                 alt="..."
                                 src={argonReact}
                               />
                             </Link>
-                          </Col>
+                          </Col> */}
                           <Col className="collapse-close" xs="6">
                             <button
                               className="navbar-toggler"
@@ -154,14 +154,14 @@ class Menus extends React.Component {
                     <UncontrolledCollapse navbar toggler="#nav-inner-success">
                       <div className="navbar-collapse-header">
                         <Row>
-                          <Col className="collapse-brand" xs="6">
+                          {/* <Col className="collapse-brand" xs="6">
                             <Link to="/">
                               <img
                                 alt="..."
                                 src={argonReact}
                               />
                             </Link>
-                          </Col>
+                          </Col> */}
                           <Col className="collapse-close" xs="6">
                             <button
                               className="navbar-toggler"

@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+// import reactWhite from "assets/img/brand/argon-react-white.png";
 import creative from "assets/img/brand/creativetim-white-slim.png";
 
 class Hero extends React.Component {
@@ -46,12 +46,12 @@ class Hero extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
-                    <img
+                    {/* <img
                       alt="..."
                       className="img-fluid"
                       src={reactWhite}
                       style={{ width: "200px" }}
-                    />
+                    /> */}
                     {/* <p className="lead text-white">
                       A beautiful Design System for Bootstrap 4. It's Free and
                       Open Source.

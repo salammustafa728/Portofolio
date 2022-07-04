@@ -1,0 +1,59 @@
+.text-project{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.cardProjects{
+    margin-bottom: 50px;
+    background-color: transparent;
+    border:0px;
+}
+
+.linkText{
+    margin-left: 39%;
+}
+
+.me{
+    position: relative;
+    top:5%;
+    left: -10;
+    width: 105%;
+    border-radius: 10%;
+    height: 90%;
+}
+
+.meSection{
+    // background-color: #d782d9;
+    background: linear-gradient(35deg, #008169 0, adjust-hue(#d782d9, 25%) 100%) !important;
+    height: 100%;
+}
+.heading{
+    color: azure;
+    font-size: 20px;
+}
+.divCon{
+    position: relative;
+    top: 1%; 
+    width: 70%; 
+}
+
+.linkAboutme{
+    color: #008169 !important;
+}
+.cardAbout{
+    width: 90%;
+    height: 96%;
+}
+
+.cardImgAbout{
+    width: 100%;
+}
+.iconMe{
+    margin-top: 10px;
+}

@@ -38,7 +38,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+// import reactWhite from "assets/img/brand/argon-react-white.png";
 import argonReact from "assets/img/brand/argon-react.png";
 import { AiFillLinkedin } from "react-icons/ai";
 
@@ -75,12 +75,12 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              {/* <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
                   src={reactWhite}
                 />
-              </NavbarBrand>
+              </NavbarBrand> */}
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -93,14 +93,14 @@ class DemoNavbar extends React.Component {
               >
                 <div className="navbar-collapse-header">
                   <Row>
-                    <Col className="collapse-brand" xs="6">
+                    {/* <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
                           alt="..."
                           src={argonReact}
                         />
                       </Link>
-                    </Col>
+                    </Col> */}
                     <Col className="collapse-close" xs="6">
                       <button className="navbar-toggler" id="navbar_global">
                         <span />

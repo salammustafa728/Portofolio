@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/img.jpg.jpeg";
+import profile from "assets/img/theme/mypic23.jpeg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -76,6 +76,7 @@ class Profile extends React.Component {
                             alt="..."
                             className="rounded-circle"
                             src={profile}
+                            style={{objectFit:'cover'}}
                           />
                         </a>
                       </div>
@@ -112,7 +113,7 @@ class Profile extends React.Component {
                           <span className="description">Experience</span>
                         </div>
                         <div>
-                          <span className="heading">7+</span>
+                          <span className="heading">8+</span>
                           <span className="description">Projects</span>
                         </div>
                         {/* <div>
@@ -125,7 +126,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                       Salam Mustafa{" "}
-                      <span className="font-weight-light">, 25</span>
+                      <span className="font-weight-light">, 26</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
