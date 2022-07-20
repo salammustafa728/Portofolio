@@ -26,6 +26,9 @@ import busMall from "assets/img/theme/busMall.jpg";
 import canofbooks from "assets/img/theme/canofbooks.jpg";
 import cityExplore from "assets/img/theme/cityExplore.jpg";
 import horned from "assets/img/theme/horned.jpg";
+import resty from 'assets/img/theme/resty.jpg'
+import storefront from 'assets/img/theme/storefront.jpg'
+ import todoApp from 'assets/img/theme/todoApp.jpg'
 import me from "assets/img/theme/me.jpeg";
 import aboutMe from "assets/img/theme/aboutMe.jpg";
 
@@ -392,44 +395,94 @@ class Landing extends React.Component {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    {/* <Col lg="6">
-                        <Card className="card-lift--hover shadow border-0">
+                     <Col lg="6">
+                       <Card className="card-lift--hover cardProjects">
                         <CardBody className="">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
-                          <h6 className="text-success text-uppercase text">
-                            Salmon Cookie
-                          </h6> */}
-                    {/* <p className="description mt-3">
-                          A website for cookie shop that count the number of cookies per hour and  counted the customer
-                          per hours for each location for each shop
+                          <CardImg src={resty} />
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div> */}
+                          <br />
+                          <br />
+                          <h6 className="text">Resty App</h6>
+                          {/* <p className="description mt-3">
+                          A website for displaying a book that is favored for you, you can add, update or delete the books 
+                          from your profile also the page will contain all the books that you add, I used mongodb and 
+                          atlas for storing the books. And Auth0 for login.
                           </p> */}
-                    {/* <div>
-                            <Badge color="success" pill className="mr-1 ">
+                          <div>
+                            {/* <Badge color="primary" pill className="mr-1"> */}
+                            <a
+                              className="linkText"
+                              href="https://resty-api-salam.netlify.app/"
+                            >
+                              {" "}
+                              Home page
+                            </a>
+                            {/* </Badge> */}
+                            {/* <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/creators.html'> Repo page for Backend</a>
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/index.html'> Repo page for frontend</a>
 
-                              <a href='https://salammustafa728.github.io/cookie-stand/'> Home page</a>
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                              <a href='https://salammustafa728.github.io/cookie-stand/sales.html'> Sales page</a>
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                              <a href='https://github.com/salammustafa728/cookie-stand'> Repo page</a>
-                            </Badge>
+                            </Badge> */}
                           </div>
-                          <Button
+                          {/* <Button
                             className="mt-4"
-                            color="success"
+                            color="primary"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
-                          </Button>
+                            Learn more <a href='https://dcode-team.github.io/Game-Learn/index.html'>  </a>
+                          </Button> */}
                         </CardBody>
                       </Card>
-                    </Col> */}
+                    </Col> 
+                    <Col lg="6">
+                       <Card className="card-lift--hover cardProjects">
+                        <CardBody className="">
+                          <CardImg src={todoApp} />
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div> */}
+                          <br />
+                          <br />
+                          <h6 className="text">Todo App</h6>
+                          {/* <p className="description mt-3">
+                          A website for displaying a book that is favored for you, you can add, update or delete the books 
+                          from your profile also the page will contain all the books that you add, I used mongodb and 
+                          atlas for storing the books. And Auth0 for login.
+                          </p> */}
+                          <div>
+                            {/* <Badge color="primary" pill className="mr-1"> */}
+                            <a
+                              className="linkText"
+                              href="https://todo-app-salam.netlify.app/"
+                            >
+                              {" "}
+                              Home page
+                            </a>
+                            {/* </Badge> */}
+                            {/* <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/creators.html'> Repo page for Backend</a>
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              <a href='https://dcode-team.github.io/Game-Learn/index.html'> Repo page for frontend</a>
+
+                            </Badge> */}
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="primary"
+                            href="#pablo"
+                            onClick={e => e.preventDefault()}
+                          >
+                            Learn more <a href='https://dcode-team.github.io/Game-Learn/index.html'>  </a>
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col> 
                     <Col lg="6">
                       <Card className="card-lift--hover cardProjects">
                         <CardBody className="">
@@ -477,13 +530,13 @@ class Landing extends React.Component {
                     <Col lg="6">
                       <Card className="card-lift--hover cardProjects">
                         <CardBody className="">
-                          <CardImg src={cityExplore} />
+                          <CardImg src={storefront} />
                           {/* <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div> */}
                           <br />
                           <br />
-                          <h6 className="text">City Explore Project</h6>
+                          <h6 className="text">StoreFront Project</h6>
                           {/* <p className="description mt-3">
                           A website for displaying a city with its map and the weather for 20 days and the movie that has 
                           the city name, you can search for any city you want, I used an API for displaying the 
@@ -494,7 +547,7 @@ class Landing extends React.Component {
 
                             <a
                               className="linkText"
-                              href="https://city-explorer-salam.netlify.app/"
+                              href="https://storefront-app-salam.netlify.app/"
                             >
                               {" "}
                               Home page
